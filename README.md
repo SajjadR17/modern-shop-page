@@ -51,4 +51,11 @@ For now, the details section doesn’t open smoothly — I’ll fix it in the ne
 
 1. Clone this repository:
    `bash
-   git clone https://github.com/YourUsername/product-page.git
+   git clone https://github.com/SajjadR17/modern-product-page.git
+
+---
+
+## 🧾 License
+
+This project is licensed under the MIT License — meaning you're free to use, modify, and share it,  
+as long as you give proper credit to Sajjad Roohandeh.
