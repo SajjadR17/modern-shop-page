@@ -112,6 +112,58 @@ body {
   font-style: italic;
 }
 
+/* nav */
+
+.sajjad-nav {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: 1px solid #888;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.brand img {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1f2937;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+}
+
+.accent {
+  color: #444;
+  margin-left: 5px;
+}
+
+.tagline {
+  font-weight: 500;
+  color: #6b7280;
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 768px) {
+  .sajjad-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .tagline {
+    font-size: 0.9rem;
+  }
+}
+
 /* product card */
 
 .product-card {
@@ -133,14 +185,14 @@ body {
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 60%;
+  width: 45%;
   height: auto;
   transition: all 0.5s ease;
 }
 
-.img-section .main-img img:hover{
-    transform: scale(1.05);
-    cursor: pointer;
+.img-section .main-img img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .img-section .secondary-imgs {
@@ -276,8 +328,8 @@ body {
   cursor: pointer;
 }
 
-.product-info{
-    margin: 20px;
+.product-info {
+  margin: 20px;
 }
 
 .product-info button {
@@ -298,8 +350,14 @@ body {
   cursor: pointer;
 }
 
-@media (max-width:768px) {
-    .product-card{
-        display: block;
-    }
+@media (max-width: 1024px) {
+  .img-section .main-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    display: block;
+  }
 }
