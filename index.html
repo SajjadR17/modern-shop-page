@@ -120,8 +120,47 @@
           <input type="radio" name="Size" id="larg" />
           <label for="larg">L</label>
         </div>
-        <button>Add to cart</button>
+        <div class="btn">
+          <button class="addToCart">Add to cart</button>
+          <div class="quantity">
+            <span class="decrease">-</span>
+            <p class="quantityNum">0</p>
+            <span class="increase">+</span>
+          </div>
+          <span class="price">0 $</span>
+        </div>
       </div>
     </div>
+    <script>
+      const btn = document.querySelector(".addToCart");
+      btn.addEventListener("click", () => {
+        btn.textContent = "Added to cart !!";
+        btn.style.backgroundColor = "yellow";
+      });
+
+      let x = 0;
+      const increaseButton = document.querySelector(".increase");
+      const DecreaseButton = document.querySelector(".decrease");
+      const counterP = document.querySelector(".quantityNum");
+
+      function updatePrice() {
+        const price = document.querySelector(".price");
+        price.textContent = `${x * 299} $`;
+      }
+
+      increaseButton.addEventListener("click", () => {
+        x++;
+        counterP.textContent = x;
+        updatePrice();
+      });
+
+      DecreaseButton.addEventListener("click", () => {
+        if (x > 0) {
+          x--;
+          counterP.textContent = x;
+          updatePrice();
+        }
+      });
+    </script>
   </body>
 </html>

@@ -2,6 +2,7 @@
 
 body {
   font-family: "poppins", sans-serif;
+  user-select: none;
 }
 
 .poppins-thin {
@@ -170,7 +171,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  gap: 50px;
+  gap: 30px;
+  padding: 20px;
 }
 
 .img-section {
@@ -262,7 +264,7 @@ body {
 
 .product-color input:checked + label {
   border-color: black;
-  box-shadow: 0px 4px 6px rgb(110, 110, 110);
+  box-shadow: 0px 3px 3px rgb(110, 110, 110);
 }
 
 .product-color .white {
@@ -319,8 +321,8 @@ body {
 }
 
 .product-size input:checked + label {
-  background-color: rgb(212, 212, 212);
-  box-shadow: 0px 4px 6px gray;
+  background-color: rgb(227, 227, 227);
+  box-shadow: 0px 3px 3px rgb(171, 171, 171);
 }
 
 .product-size label:hover {
@@ -334,8 +336,8 @@ body {
 
 .product-info button {
   font-weight: bolder;
-  width: 300px;
-  height: 50px;
+  width: 250px;
+  height: 40px;
   margin: 30px 0px;
   padding: 5px;
   color: black;
@@ -350,14 +352,81 @@ body {
   cursor: pointer;
 }
 
+.btn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  margin: auto;
+  margin-right: 15px;
+  margin-left: 60px;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+
+.decrease {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.increase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.quantityNum {
+  text-align: center;
+  font-weight: bolder;
+  background-color: #ededed;
+  width: 15px;
+  height: auto;
+  padding: 5px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 47px;
+  border-left: 1px solid #777;
+}
+
 @media (max-width: 1024px) {
   .img-section .main-img img {
-    width: 70%;
+    width: 100%;
+  }
+
+  .quantity {
+    margin-left: 15px;
   }
 }
 
 @media (max-width: 768px) {
   .product-card {
     display: block;
+  }
+
+  .product-info button {
+    width: 190px;
+  }
+
+  .price {
+    padding: 0px 10px;
   }
 }
