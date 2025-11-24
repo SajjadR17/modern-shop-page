@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modern Product Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Home page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="sajjad-nav">
@@ -18,148 +18,407 @@
         <img src="assests/favicon.png" alt="" />
         <span class="logo">Sajjad</span><span class="accent">Dev</span>
       </div>
-      <div class="tagline">Frontend Developer</div>
+      <div class="tagline">
+        <div class="search">
+          <img
+            src="https://img.icons8.com/?size=100&id=132&format=png&color=000000"
+            alt="search-icon"
+          />
+          <input
+            type="text"
+            name="search"
+            id="search-bar"
+            placeholder="Search"
+          />
+        </div>
+        <a href="index.html" class="home-icon"
+          ><img
+            src="https://img.icons8.com/?size=100&id=83326&format=png&color=000000"
+            alt=""
+        /></a>
+        <a href="#product-title" class="product-icon"
+          ><img
+            src="https://img.icons8.com/?size=100&id=59867&format=png&color=000000"
+            alt=""
+        /></a>
+        <a href="#" class="cart-icon"
+          ><img
+            src="https://img.icons8.com/?size=100&id=85080&format=png&color=000000"
+            alt=""
+        /></a>
+        <a href="" class="menu-icon"
+          ><img
+            src="https://img.icons8.com/?size=100&id=3096&format=png&color=000000"
+            alt=""
+        /></a>
+      </div>
     </nav>
-    <div class="product-card">
-      <div class="img-section">
-        <div class="main-img">
-          <img src="assests/main-img.png" alt="" />
-        </div>
-        <div class="secondary-imgs">
+    <div class="nav-menu">
+      <div class="menu-item"><a href="">Home</a></div>
+      <div class="menu-item"><a href="">Products</a></div>
+      <div class="menu-item"><a href="">Cart</a></div>
+      <div class="menu-item">Sajjad Roohandeh</div>
+    </div>
+    <div class="interview">
+      <div class="interview-left">
+        <h1>Digital Products Shop</h1>
+        <h2>New Pro Edition</h2>
+        <h4>
+          The lastest wireless headphones with high quality sound. Experience
+          wireless audio with deeper bass, clearer, highs and pure silence
+        </h4>
+        <a href="assests/Product1.html"><button>Shop Now</button></a>
+      </div>
+      <div class="interview-right">
+        <img src="assests/main-img.png" alt="Headphone" />
+      </div>
+    </div>
+    <hr />
+    <h1 class="product-title" id="product-title">Products</h1>
+    <div id="products">
+      <div class="product">
+        <div class="product-top">
+          <div class="star">
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img src="assests/star-e.png" class="star-icon" alt="" />
+          </div>
           <img src="assests/secondary1.png" alt="" />
-          <img src="assests/secondary2.png" alt="" />
-          <img src="assests/secondary3.png" alt="" />
-          <img src="assests/secondary4.png" alt="" />
+          <div class="offer">
+            <span>Hot Offer</span>
+          </div>
         </div>
-        <div class="details-section">
-          <details>
-            <summary>Details</summary>
-            <ul>
-              <li>
-                <b>LONG BATTERY LIFE:</b> With up to 30-hour battery life and
-                quick charging, you'll have enough power for multi-day road
-                trips and long festival weekends.
-              </li>
-              <li>
-                <b>(USB Type-C Cable included) HIGH QUALITY SOUND:</b> Great
-                sound quality customizable to your music preference with EQ
-                Custom on the Sony | Headphones Connect App.
-              </li>
-              <li>
-                <b>LIGHT & COMFORTABLE:</b> The lightweight build and swivel
-                earcups gently slip on and off, while the adjustable headband,
-                cushion and soft ear pads give you all-day comfort.
-              </li>
-              <li>
-                <b> CLEAR CALLS:</b> A built-in microphone provides you with
-                hands-free calling. No need to even take your phone from your
-                pocket.
-              </li>
-              <li>
-                <b>MULTIPOINT CONNECTION:</b> Quickly switch between two devices
-                at once.
-              </li>
-              <li>
-                <b>AVAILABLE IN THREE COLORS:</b> With Black, Blue, White, Pink,
-                Yellow and Cappuccino to choose from, find the color that suits
-                you best.
-              </li>
-              <li>
-                <b>GIVE YOUR MUSIC A BOOST:</b> Boost the quality of compressed
-                music files and enjoy streaming music with high quality sound
-                through DSEE.
-              </li>
-              <li>
-                <b>FIND YOUR HEADPHONES WITH FAST PAIR:</b> Easily find your
-                missing headphones by sound or check their last known location
-                in Google's Find My Device app on your smartphone.
-              </li>
-              <li>
-                <b>EASY CONNECTION TO YOUR PC:</b> Swift Pair makes it quick and
-                easy to pair your headphones with your Windows 10 computer via
-                Bluetooth.
-              </li>
-            </ul>
-          </details>
-          <details>
-            <summary>Shipping</summary>
-            <ul>
-              <li>
-                Free worldwide shipping on all orders.
-                <b
-                  >Estimated delivery: 3-5 business days. 30-day return
-                  guarantee</b
-                >
-              </li>
-            </ul>
-          </details>
+        <div class="product-bottom">
+          <h3 class="product-name">Headphone Sony</h3>
+          <div class="price">
+            <h3 class="product-price">199$</h3>
+            <h3 class="product-price-off">100$</h3>
+          </div>
+          <a href=""><button class="product-btn">View product</button></a>
         </div>
       </div>
-      <div class="product-info">
-        <h1>Wireless Headphones</h1>
-        <h3>$299</h3>
-        <h5>
-          High quality wireless <br />
-          headphones with noise cancell-lation Up to 30 hours of battery life.
-        </h5>
-        <h3>Color</h3>
-        <div class="product-color">
-          <input type="radio" name="Color" id="black" />
-          <label for="black" class="black"></label>
-          <input type="radio" name="Color" id="gray" />
-          <label for="gray" class="gray"></label>
-          <input type="radio" name="Color" id="white" />
-          <label for="white" class="white"></label>
-        </div>
-        <h3>Size</h3>
-        <div class="product-size">
-          <input type="radio" name="Size" id="small" />
-          <label for="small">S</label>
-          <input type="radio" name="Size" id="medium" />
-          <label for="medium">M</label>
-          <input type="radio" name="Size" id="larg" />
-          <label for="larg">L</label>
-        </div>
-        <div class="btn">
-          <button class="addToCart">Add to cart</button>
-          <div class="quantity">
-            <span class="decrease">-</span>
-            <p class="quantityNum">0</p>
-            <span class="increase">+</span>
+      <div class="product">
+        <div class="product-top">
+          <div class="star">
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img src="assests/star-e.png" class="star-icon" alt="" />
           </div>
-          <span class="price">0 $</span>
+          <img src="assests/earbuds.png" alt="" />
+        </div>
+        <div class="product-bottom">
+          <h3 class="product-name">Wireless Earbuds</h3>
+          <div class="price">
+            <h3 class="product-price-off">129$</h3>
+          </div>
+          <a href=""><button class="product-btn">View product</button></a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-top">
+          <div class="star">
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+          </div>
+          <img src="assests/watch.png" alt="" />
+          <div class="offer">
+            <span>Hot Offer</span>
+          </div>
+        </div>
+        <div class="product-bottom">
+          <h3 class="product-name">Smart Watch</h3>
+          <div class="price">
+            <h3 class="product-price">180$</h3>
+            <h3 class="product-price-off">149$</h3>
+          </div>
+          <a href=""><button class="product-btn">View product</button></a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-top">
+          <div class="star">
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img src="assests/star-e.png" class="star-icon" alt="" />
+            <img src="assests/star-e.png" class="star-icon" alt="" />
+          </div>
+          <img src="assests/webcam.png" alt="" />
+        </div>
+        <div class="product-bottom">
+          <h3 class="product-name">Webcam</h3>
+          <div class="price">
+            <h3 class="product-price-off">49$</h3>
+          </div>
+          <a href=""><button class="product-btn">View product</button></a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-top">
+          <div class="star">
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img src="assests/star-e.png" class="star-icon" alt="" />
+            <img src="assests/star-e.png" class="star-icon" alt="" />
+          </div>
+          <img src="assests/keybord-mouse.png" alt="" />
+          <div class="offer">
+            <span>Hot Offer</span>
+          </div>
+        </div>
+        <div class="product-bottom">
+          <h3 class="product-name">Keyboard & mouse combo</h3>
+          <div class="price">
+            <h3 class="product-price">70$</h3>
+            <h3 class="product-price-off">59$</h3>
+          </div>
+          <a href=""><button class="product-btn">View product</button></a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-top">
+          <div class="star">
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+          </div>
+          <img src="assests/power-bank.png" alt="" />
+          <div class="offer">
+            <span>Hot Offer</span>
+          </div>
+        </div>
+        <div class="product-bottom">
+          <h3 class="product-name">Power Bank</h3>
+          <div class="price">
+            <h3 class="product-price">60$</h3>
+            <h3 class="product-price-off">39$</h3>
+          </div>
+          <a href=""><button class="product-btn">View product</button></a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-top">
+          <div class="star">
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img src="assests/star-e.png" class="star-icon" alt="" />
+          </div>
+          <img src="assests/mini-speaker.png" alt="" />
+        </div>
+        <div class="product-bottom">
+          <h3 class="product-name">Mini speaker</h3>
+          <div class="price">
+            <h3 class="product-price-off">49$</h3>
+          </div>
+          <a href=""><button class="product-btn">View product</button></a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-top">
+          <div class="star">
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+          </div>
+          <img src="assests/soundbar-speaker.png" alt="" />
+          <div class="offer">
+            <span>Hot Offer</span>
+          </div>
+        </div>
+        <div class="product-bottom">
+          <h3 class="product-name">Soundbar speaker</h3>
+          <div class="price">
+            <h3 class="product-price">110$</h3>
+            <h3 class="product-price-off">89$</h3>
+          </div>
+          <a href=""><button class="product-btn">View product</button></a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-top">
+          <div class="star">
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img
+              src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000"
+              class="star-icon"
+              alt=""
+            />
+            <img src="assests/star-e.png" class="star-icon" alt="" />
+            <img src="assests/star-e.png" class="star-icon" alt="" />
+          </div>
+          <img src="assests/usb-flash.png" alt="" />
+        </div>
+        <div class="product-bottom">
+          <h3 class="product-name">USB Flash</h3>
+          <div class="price">
+            <h3 class="product-price-off">12$</h3>
+          </div>
+          <a href=""><button class="product-btn">View product</button></a>
         </div>
       </div>
     </div>
     <script>
-      const btn = document.querySelector(".addToCart");
-      btn.addEventListener("click", () => {
-        btn.textContent = "Added to cart !!";
-        btn.style.backgroundColor = "yellow";
-      });
+      const nav = document.querySelector(".sajjad-nav");
+      const navMenu = document.querySelector(".nav-menu");
+      const menuBtn = document.querySelector(".menu-icon");
 
-      let x = 0;
-      const increaseButton = document.querySelector(".increase");
-      const DecreaseButton = document.querySelector(".decrease");
-      const counterP = document.querySelector(".quantityNum");
-
-      function updatePrice() {
-        const price = document.querySelector(".price");
-        price.textContent = `${x * 299} $`;
-      }
-
-      increaseButton.addEventListener("click", () => {
-        x++;
-        counterP.textContent = x;
-        updatePrice();
-      });
-
-      DecreaseButton.addEventListener("click", () => {
-        if (x > 0) {
-          x--;
-          counterP.textContent = x;
-          updatePrice();
-        }
+      menuBtn.addEventListener("click", () => {
+        navMenu.classList.toggle("nav-menu-open");
       });
     </script>
   </body>
