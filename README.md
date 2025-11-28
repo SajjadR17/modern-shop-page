@@ -1,4 +1,4 @@
-# 🎧 Modern Product Page
+# Modern Product Page
 
 A clean and minimal Product Page built with pure HTML & CSS,  
 focused on design, responsiveness, and smooth user interactions — without using JavaScript yet.
@@ -9,9 +9,9 @@ focused on design, responsiveness, and smooth user interactions — without usin
 
 - ⚡ Fully responsive layout (Flexbox + modern CSS units)
 - 🎨 Interactive color and size selectors (CSS-only using :checked)
-- 📂 Product details section (currently static, smooth transition coming in the next update)
+- 📂 Product details section (currently static, smooth transition coming in the next update) (Updaating)
 - 🖼️ Clean product gallery design (no JS yet)
-- 🌗 Dark minimalist theme inspired by Sony & Apple
+- 🌗 minimalist theme
 
 ---
 
@@ -25,7 +25,7 @@ focused on design, responsiveness, and smooth user interactions — without usin
 
 ## 🧠 Developer Note
 
-JavaScript hasn’t been added yet because I’m still learning DOM manipulation.  
+JavaScript hasn’t been added yet because I’m still learning JS.  
 Once I master it, all my projects — including this one — will become fully interactive 💪  
 For now, the details section doesn’t open smoothly — I’ll fix it in the next update once I understand transitions better.
 
@@ -40,7 +40,6 @@ For now, the details section doesn’t open smoothly — I’ll fix it in the ne
 ## 🧠 Key Concepts Practiced
 
 - Custom inputs with :checked (for colors & sizes)
-- Styling <details> / <summary> with [open]
 - Creating animations with max-height and opacity (to be improved soon)
 - Using ::before / ::after for icons and effects
 - Building modern UI without frameworks
